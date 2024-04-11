@@ -1,4 +1,9 @@
-.fonts{
-    /* font-style: normal; */
-    
+.parent{
+    font-style: normal;
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    font-size: 5px;
+}
+.child{
+    font-weight: bold;
 }

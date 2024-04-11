@@ -1,0 +1,20 @@
+*{
+    font-size:2px;
+
+}
+table,td,tr{
+    border:2px solid blue;
+    border-collapse: collapse;
+}
+td,tr{
+    height: 50px;
+    vertical-align: top;
+}
+.parent{
+    width: 250px;
+    text-align: right;
+    
+}
+/* class,id, tag */
+/* universal selector */
+/* multi selector */

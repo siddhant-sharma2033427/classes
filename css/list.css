@@ -1,0 +1,15 @@
+*{
+    font-size:5px;
+}
+.parent{
+    /* list-style-type: square; */
+    /* list-style-type: circle; */
+    /* list-style-type: none; */
+    list-style-image:url("./2024-03-30-21-41-41.png");
+    list-style-position:inside;
+    /* list-style-position:outside; */
+}
+.parent2{
+    /* list-style-type: lower-roman; */
+    list-style-type: upper-roman;
+}

@@ -1,0 +1,24 @@
+.nav{
+    list-style-type: none;
+    display:flex;
+    background-color: blueviolet;
+    
+}
+li{
+    margin: 10px;
+    background-color: blueviolet;
+}
+.container{
+    width:400px;
+    margin:auto;
+}
+a{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    padding:7px;
+}
+li a:hover{
+    background-color: orange;
+    color:white;
+}
