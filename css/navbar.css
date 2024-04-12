@@ -9,8 +9,10 @@ li{
     background-color: blueviolet;
 }
 .container{
-    width:400px;
+    width:100%;
     margin:auto;
+    z-index:100;
+    position: fixed;
 }
 a{
     color:black;
@@ -21,4 +23,25 @@ a{
 li a:hover{
     background-color: orange;
     color:white;
+}
+.navcontainer{
+    background-color: blue;
+    height: 80px;
+}
+.content{
+    background-color: orange;
+    height:300px;
+    /* overflow:auto; */
+    /* overflow-y:hidden;
+    /* overflow-y:scroll;
+    /* overflow-y:visible;
+    overflow-x: scroll; */
+}
+.image{
+    float:right;
+}
+.image2{
+    float:left;
+    height: 200px;
+    width:200px;
 }
